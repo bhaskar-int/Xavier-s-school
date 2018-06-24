@@ -1,0 +1,74 @@
+body{
+	background-image: url(pic2.jpg);
+
+}
+header {
+    background-color: rgba(204, 255, 204, 0.5);
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #990099;
+    font-family: Lucida Console;
+}
+nav {
+    float: center;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    background: rgba(254, 205, 204, 0.5);
+    padding: 20px;
+    font-size: 25px;
+}
+a:link{
+	color: blue;
+	text-decoration: none;
+}
+a:visited{
+	color: rgb(77, 0, 102);
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(77, 0, 102);
+	text-decoration: none;
+}
+a:active{
+	color: blue;
+	text-decoration: none;
+}
+main {
+    float: right;
+    padding: 20px;
+    width: 74%;
+    background-color: rgba(102, 255, 254, 0.5);
+    height: 300px; 
+}
+article{
+	float: left;
+	padding: 20px;
+	width: 20%;
+	height: 300px;
+	background-color: rgba(102, 255, 204, 0.5);
+}
+
+footer {
+	float: bottom;
+    background: rgba(254, 205, 204, 0.5);
+    padding: 15px;
+    text-align: center;
+    color: blue;
+}
+p{
+	text-indent: 50px;
+	color: blue;
+	font-size: 20px;
+}
+p#b1,p#b2,p#b3,p#b4,p#b5,p#b6,p#b7,p#b8,p#b9{
+	background-color: rgba(64, 255, 0,0.7);
+	color: rgb(102, 0, 51);
+}
+p#contact{
+	background-color: rgba(102, 204, 255, 0.5);
+	color: rgb(77, 38, 0);
+	text-align: center;
+}
